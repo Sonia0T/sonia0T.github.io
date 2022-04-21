@@ -9,33 +9,33 @@
   }*/
 
   #photo_banniere{
-    height: 40px;
+    height: 5%;
     width: 100%;
-    background-color: #ffcccc;
+    background-color: #d9a5a5;
     position: fixed;
     z-index: 1;
   }
 
   #cote{
-    height: 1000px;
-    width: 45px;
-    background-color: #e0eeee;
+    height: 10%;
+    width: 20%;
+    background-color: #f5d9eb;
     float: left;
     position: fixed;
   }
   
   #section {
-    height: 1000px;
-    width: 45px;
-    background-color: #e0eeee;
+    height: 80%;
+    width: 4;
+    background-color:#ecc8dc;
     float: right;
     position: inherit;
   }
 
   #photo_enbas{
-    height: 50px;
+    height: 5%;
     width: 100%;
-    background-color: #ffcccc;
+    background-color: #d9a5a5
     clear: both;
     position: relative;
   }
