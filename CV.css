@@ -66,7 +66,9 @@
     margin-bottom : 0%;
   }
 
-  .menu{ /* Ajouter surbrillance menu MODIF BOUTONS */
+/* Le menu horizontal du CV */
+
+  .menu{
     color: white;
     display : inline-flex;
     text-align: center;
@@ -159,6 +161,7 @@
     margin-top : 0px;
   }
 
+/* La division de la section divers en deux colonnes */
 
   .container_divers {
     margin-top: 0px;
