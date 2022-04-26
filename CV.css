@@ -1,212 +1,211 @@
 /* Marges du CV */
 * {
-    margin: 0;
-  }
+  margin: 0%;
+}
 
 /* Balises de bases */
-  
-  html{
-    scroll-behavior: smooth;
-  }
 
-  body {
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 300;
-    font-size: .9rem;
-    line-height: 1.5;
-    text-indent: 5px;
-  }
+html{
+  scroll-behavior: smooth;
+}
 
-  
-  h2{
-    margin: 0 0 1rem;
-    font-size: 1.8rem;
-    color : #171515;
-    border : solid #652c17;
-    text-align : center;
-    border-radius: 10px;
-    margin-top : 0px;
-  }
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 300;
+  font-size: .9rem;
+  line-height: 1.5;
+  text-indent: 5px;
+}
 
-  h4{
-    margin : 0 0 0rem;
-    letter-spacing : 1px;
-    font-size : 1.1rem;
-    color : #a37b64;
 
-  }
+h2{
+  margin: 0 0 1rem;
+  font-size: 1.8rem;
+  color : #171515;
+  border : solid #652c17;
+  text-align : center;
+  border-radius: 10px;
+  margin-top : 0px;
+}
 
-  h5{
-    font-size: 0.9rem;
-    margin : 0 0 1rem;
-  }
+h4{
+  margin : 0 0 0rem;
+  letter-spacing : 1px;
+  font-size : 1.1rem;
+  color : #a37b64;
 
-  a{
-    outline: none;
-    display : block;
-    content : normal;
-  }
+}
+
+h5{
+  font-size: 0.9rem;
+  margin : 0 0 1rem;
+}
+
 
 /* La banniere du CV */
 
-  .banniere{
-    position : relative;
-    height: 10%;
-    width : 100%;
-    margin-left:auto; 
-    margin-right:auto;
-    background-image : url("droit_num.jpg");
-    background-repeat: no-repeat;
-    background-size : 100%;
-    color : white;
-    text-align:center;
-    font-size : 30px;
-    border-radius: 10px;
-    z-index: 1;
-    margin-bottom : 0%;
-  }
+.banniere{
+  position : relative;
+  height: 10%;
+  width : 100%;
+  margin-left:auto; 
+  margin-right:auto;
+  background-image : url("droit_num.jpg");
+  background-repeat: no-repeat;
+  background-size : 100%;
+  color : white;
+  text-align:center;
+  font-size : 30px;
+  border-radius: 10px;
+  z-index: 1;
+}
 
 /* Le menu horizontal du CV */
 
-  .menu{
-    color: white;
-    display : inline-flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin: 50px;
-    position: relative;
-    width: 140px;
-    height: 30px;
-    border: solid;
-    border-width: 1px 4px;
-    border-radius: 40px;
-    font-size: 20px;
-    text-decoration: none;
-    box-shadow: 0 2px 8px 0 #999;
-    margin-bottom : 10px;
-  }
+.menu{
+  color: white;
+  display : inline-flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  position: relative;
+  width: 140px;
+  height: 30px;
+  border: solid;
+  border-width: 1px 4px;
+  border-radius: 40px;
+  font-size: 20px;
+  text-decoration: none;
+  box-shadow: 0 2px 8px 0 #999;
+  margin-bottom : 10px;
+}
 
-  .menu:hover{
-    background-color: #d3b3ac;
-  }
+.menu:hover{
+  background-color: #d3b3ac;
+}
 
 
-/* Le bloc du CV en tant que tel */
+/* Le bloc du CV en tant que tel
 
-  .container {
-    max-width:960px;
-    margin-top: 0px;
-    margin-bottom : 0px;
-    margin:auto;
-    position:relative;
-    overflow : hidden;
-  }
+.container {
+  max-width:960px;
+  margin-top: 0px;
+  margin-bottom : 0px;
+  margin:auto;
+  position:inherits: ;
+  overflow : hidden;
+}
 
+*/
 /* La partie gauche du CV */
 
-  .gauche {
-    position:absolute;
-    left:0;
-    background-color: #a37b64;
-    align-items: center;
-    justify-items: center;
-    column-width : relative;
-    width : 22%;
-    list-style-type: none;
-    letter-spacing: 1px;
-    margin: 0 0 1rem;
-    margin-bottom : -1000px; /* Permet de rendre les deux colonnes de meme longueur */
-    padding-bottom: 1000px; /* Permet de rendre les deux colonnes de meme longueur */
-    color : white;
-    border-radius: 10px;
-    text-align: center;
-  }
+.gauche {
+  position:absolute;
+  left:0;
+  background-color: #a37b64;
+  align-items: center;
+  justify-items: center;
+  width : 22%;
+  list-style-type: none;
+  letter-spacing: 1px;
+  margin: 0 0 1rem;
+  color : white;
+  border-radius: 10px;
+  text-align: center;
+  padding-bottom: 64%;
+  margin-left: 8%;
+}
 
-  .gauche h4{
-    color : white;
-    margin : 0 0 2rem;
-  }
+.gauche h4{
+  color : white;
+  margin : 0 0 2rem;
+}
 
-  .lien{
-    color : white;
-  }
+.lien{
+  color : white;
+}
 
-  .image{
-    border-radius: 50%;
-    max-width : 140px;
-    margin : auto;
-    margin-top : 30px;
-    display : block;
-    margin-bottom : 50px;
-    align-content: center;
-    border : solid;
-    border-color : white;
-  }
+.image{
+  border-radius: 50%;
+  max-width : 140px;
+  margin : auto;
+  margin-top : 30px;
+  display : block;
+  margin-bottom : 50px;
+  align-content: center;
+  border : solid;
+  border-color : white;
+}
 
-  .icone{
-    height:20px;
-  }
+.icone{
+  height:20px;
+}
 
 /* La partie droite du CV */
-  
-  .droite {
-    margin-left:250px;
-    min-height:150px;
-    float : right;
-    column-width : auto;
-    width : 77%;
-    margin-bottom : -1000px; /* Permet de rendre les deux colonnes de meme longueur */
-    padding-bottom: 1000px; /* Permet de rendre les deux colonnes de meme longueur */
-    margin-top : 0px;
-  }
+
+.droite {
+  min-height:150px;
+  float : right;
+  width : 60%; /* Permet de rendre les deux colonnes de meme longueur */
+  margin-top : 0px;
+  position: inherit;
+  margin-bottom: 0%;
+  margin-right : 8%;
+}
 
 /* La division de la section divers en deux colonnes */
 
-  .container_divers {
-    margin-top: 0px;
-    margin-bottom : 0px;
-    margin:auto;
-    position:relative;
-    overflow : hidden;
-  }
+#retour_haut{
+  float : right;
+  margin-right: 10px;
+}
 
-  .competences{
-    width:100px;
-    position:absolute;
-    align-items: center;
-    justify-items: center;
-    margin-right : 0px;
-    width : 50%;
-    float : left;
-    border-right : solid #a37b64;
-  }
+.container_divers {
+  margin-top: 0px;
+  margin-bottom : 0px;
+  margin:auto;
+  position:relative;
+  overflow : hidden;
+}
 
-  .langues{ 
-    float : right;
-    right : 0;
-    width : 40%;
-    margin-left:250px;
-    min-height:150px;
-    justify-items: center;
-    column-width : auto;
-  }
+.competences{
+  width:100px;
+  position:absolute;
+  align-items: center;
+  justify-items: center;
+  margin-right : 0px;
+  width : 50%;
+  float : left;
+  border-right : solid #a37b64;
+}
+
+.langues{ 
+  float : right;
+  right : 0;
+  width : 40%;
+  margin-left:250px;
+  min-height:150px;
+  justify-items: center;
+  column-width : auto;
+}
 
 /* La bannière en bas du CV */
 
-  .photo_enbas{  
-    background-image : url("droit_num.jpg");
-    background-size : 100%;
-    height: 20%;
-    clear: both;
-    position: relative;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    color : white;
-    text-align:center;
-    font-size : 1.5rem;
-    border-radius: 10px;
-  }
+.photo_enbas{  
+  background-image : url("droit_num.jpg");
+  background-size : 100%;
+  height: 20%;
+  clear: both;
+  position: inherit;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color : white;
+  text-align:center;
+  font-size : 1.5rem;
+  border-radius: 10px;
+  margin-top: 0%;
+}
 
-  
+
