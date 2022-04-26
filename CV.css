@@ -41,12 +41,17 @@ h5{
   margin : 0 0 1rem;
 }
 
-a{
-  color :white;
+a {
+  color: white;
   text-decoration: none;
 }
 
-a:visited{
+a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
   color: white;
   text-decoration: none;
 }
