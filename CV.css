@@ -46,6 +46,10 @@ a{
   text-decoration: none;
 }
 
+a:visited{
+  color: white;
+  text-decoration: none;
+}
 /* La banniere du CV */
 
 .banniere{
