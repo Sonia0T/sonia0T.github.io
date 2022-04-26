@@ -41,7 +41,9 @@ h5{
   margin : 0 0 1rem;
 }
 
-
+a{
+  color :white;
+}
 /* La banniere du CV */
 
 .banniere{
@@ -120,10 +122,6 @@ h5{
 .gauche h4{
   color : white;
   margin : 0 0 2rem;
-}
-
-.lien{
-  color : white;
 }
 
 .image{
