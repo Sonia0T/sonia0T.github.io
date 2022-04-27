@@ -3,7 +3,7 @@
   margin: 0%;
 }
 
-/* Balises de bases */
+/* Modification des balises de bases */
 
 html{
   scroll-behavior: smooth;
@@ -17,7 +17,6 @@ body {
   text-indent: 5px;
 }
 
-
 h2{
   margin: 0 0 1rem;
   font-size: 1.8rem;
@@ -25,16 +24,13 @@ h2{
   border : solid #652c17;
   text-align : center;
   border-radius: 10px;
-  margin-top : 0px;
   width: 100%;
 }
 
 h4{
-  margin : 0 0 0rem;
   letter-spacing : 1px;
   font-size : 1.1rem;
   color : #a37b64;
-
 }
 
 h5{
@@ -58,6 +54,7 @@ a:visited {
   color: white;
   text-decoration: none;
 }
+
 /* La banniere du CV */
 
 .banniere{
@@ -73,7 +70,6 @@ a:visited {
   text-align:center;
   font-size : 30px;
   border-radius: 10px;
-  z-index: 1;
 }
 
 /* Le menu horizontal du CV */
@@ -81,7 +77,6 @@ a:visited {
 .menu{
   color: white;
   display : inline-flex;
-  text-align: center;
   justify-content: center;
   align-items: center;
   margin: 50px;
@@ -107,8 +102,6 @@ a:visited {
   position:absolute;
   left:0;
   background-color: #a37b64;
-  align-items: center;
-  justify-items: center;
   width : 22%;
   list-style-type: none;
   letter-spacing: 1px;
@@ -130,7 +123,6 @@ a:visited {
   max-width : 140px;
   margin : auto;
   margin-top : 30px;
-  display : block;
   margin-bottom : 50px;
   align-content: center;
   border : solid;
@@ -146,10 +138,9 @@ a:visited {
 .droite {
   min-height:150px;
   float : right;
-  width : 60%; /* Permet de rendre les deux colonnes de meme longueur */
+  width : 60%;
   margin-top : 0px;
   position: inherit;
-  margin-bottom: 0%;
   margin-right : 8%;
 }
 
@@ -157,12 +148,9 @@ a:visited {
 
 .retour_haut{
   float : right;
-  margin-right: 10px;
-  right : 0;
 }
 
 .container_divers {
-  margin-bottom : 0px;
   position:relative;
 }
 
@@ -170,11 +158,10 @@ a:visited {
   position:absolute;
   align-items: center;
   justify-items: center;
-  margin-right : 0px;
   width : 50%;
   float : left;
   border-right : solid #a37b64;
-  margin-top: 5%;
+  margin-top: 5.4%;
 }
 
 .langues{ 
@@ -184,7 +171,6 @@ a:visited {
   margin-left:250px;
   min-height:150px;
   justify-items: center;
-  column-width : auto;
 }
 
 /* La bannière en bas du CV */
@@ -192,17 +178,14 @@ a:visited {
 .photo_enbas{  
   background-image : url("images/droit_num.jpg");
   background-size : 100%;
-  height: 20%;
   clear: both;
   position: inherit;
   text-align: center;
   justify-content: center;
   align-items: center;
   color : white;
-  text-align:center;
   font-size : 1.5rem;
   border-radius: 10px;
-  margin-top: 0%;
 }
 
 
