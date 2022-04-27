@@ -39,6 +39,8 @@ h4{
 h5{
   font-size: 0.9rem;
   margin : 0 0 1rem;
+  font-size : italic;
+  font-weight : bold;
 }
 
 a {
