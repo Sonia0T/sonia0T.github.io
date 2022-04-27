@@ -116,7 +116,7 @@ a:visited {
   color : white;
   border-radius: 10px;
   text-align: center;
-  padding-bottom: 64%;
+  padding-bottom: 60%;
   margin-left: 8%;
 }
 
@@ -157,6 +157,7 @@ a:visited {
 
 .retour_haut{
   float : right;
+  margin-right: 10px;
   right : 0;
 }
 
