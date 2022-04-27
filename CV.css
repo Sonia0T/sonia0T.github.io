@@ -154,7 +154,7 @@ a:visited {
 
 /* La division de la section divers en deux colonnes */
 
-#retour_haut{
+.retour_haut{
   float : right;
   margin-right: 10px;
 }
