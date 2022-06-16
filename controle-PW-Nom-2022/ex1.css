@@ -1,0 +1,43 @@
+/* Marges */
+* {
+    margin: 0%;
+  }
+
+.haut{
+    position : absolute;
+    border : solid;
+    width : 40%;
+    box-shadow: inset 0 0 10px grey;
+}
+
+.haut1{
+    width : 30%;
+    height : 70%;
+}
+
+.haut1 h1{
+    text-align : center;
+    border-radius: 10px;
+    border : solid;
+}
+.bas-haut{
+    text-align : center;
+
+}
+
+.bas-haut h1{
+    text-align : right;
+}
+
+.gauche{
+    position:relative;
+    left:0;
+    width : 22%;
+    border : solid;
+}
+
+.droite{
+    float: right;
+    position : relative;
+    border : solid;
+}
